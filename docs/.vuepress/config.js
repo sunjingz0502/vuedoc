@@ -44,6 +44,16 @@ module.exports = {
   markdown: {
     lineNumbers: true, // 代码块显示行号
   },
+  themeConfig: {
+    // logo: "/logo.png",
+    sidebar: "auto",
+    sidebarDepth: 2,
+    // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
+    nextLinks: true,
+    // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
+    prevLinks: true,
+    smoothScroll: true,
+  },
   plugins: [
     "@vuepress/active-header-links",
     "@vuepress/back-to-top",
